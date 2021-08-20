@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="LoginMedia.css">
+    <script type="text/javascript" src="Login.js"></script>  
+</head>
+<body>
+    <form onsubmit="return data()" action="Data.html">
+      <div id="title">
+      <p>Welcome to dmEdge5</p>
+    </div>
+    <br>
+    <br>
+        <div class="mb-3">
+          <label for="exampleInputUsername" class="form-label">User name *</label>
+          <input type="username" class="form-control" id="exampleInputUsername" aria-describedby="UsernameHelp">
+        </div>
+        <br>
+        <br>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password * </label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <br>
+        <div class="mb-3 form-remember">
+          <label class="form-remember-label" for="exampleRemember1">Remember me</label>
+          <input type="checkbox" class="form-remember-input" id="exampleRemember1">
+        </div>
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+</body>
+</html>

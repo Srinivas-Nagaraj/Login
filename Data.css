@@ -1,0 +1,17 @@
+tr,td,th,table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table{
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 40%;
+    height:100px;
+    color: white;
+    background-color: rgb(25, 3, 26);
+}
+body{
+    background-image: url(computertable.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
